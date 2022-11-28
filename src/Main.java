@@ -1,8 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        task1();
+        task13();
+        task4();
+        task5();
+        task67();
+        task8();
     }
-    public static void task1 () {
+    public static void task13 () {
         System.out.println("Задачи 1-3");
         double dog = 8; // Пишем код для задачи 1
         var cat = 3.6;
@@ -22,15 +26,17 @@ public class Main {
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
-
-        System.out.println("Задача 4");
-        var friend = 19; // Пишем код для задачи 4
-        System.out.println(friend);
-        friend = friend + 2;
-        System.out.println(friend);
-        friend = friend / 7;
-        System.out.println(friend);
-
+    }
+        public static void task4 () {
+            System.out.println("Задача 4");
+            var friend = 19; // Пишем код для задачи 4
+            System.out.println(friend);
+            friend = friend + 2;
+            System.out.println(friend);
+            friend = friend / 7;
+            System.out.println(friend);
+        }
+    public static void task5 () {
         System.out.println("Задача 5");
         var frog = 3.5; // Пишем код для задачи 5
         System.out.println(frog);
@@ -40,7 +46,8 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
-
+    }
+    public static void task67 () {
         System.out.println("Задача 6");
         var boxer1Weight = 78.2; // Пишем код для задачи 6
         var boxer2Weight = 82.7;
@@ -53,7 +60,8 @@ public class Main {
         System.out.println("Задача 7");
         var difference2Weight = boxer2Weight % boxer1Weight; // Пишем код для задачи 7
         System.out.println("Разница в весе межде боксерами " + difference2Weight + " кг");
-
+    }
+    public static void task8 () {
         System.out.println("Задача 8");
         var workInitCommonHours = 640; // Пишем код для задачи 8
         var workPersonalHours = 8;
