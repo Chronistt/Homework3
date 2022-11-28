@@ -3,7 +3,7 @@ public class Main {
         task1();
     }
     public static void task1 () {
-        System.out.println("Задача 1");
+        System.out.println("Задачи 1-3");
         double dog = 8; // Пишем код для задачи 1
         var cat = 3.6;
         var paper = 763789;
